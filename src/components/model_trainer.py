@@ -16,7 +16,7 @@ from src.utils.main_utils import MainUtils
 
 from dataclasses import dataclass
 
-
+ 
 @dataclass
 class ModelTrainerConfig:
     model_trainer_dir = os.path.join(artifact_folder, 'model_trainer')
